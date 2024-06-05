@@ -66,7 +66,7 @@
             // 
             // panelMenu
             // 
-            panelMenu.BackColor = Color.FromArgb(0, 0, 64);
+            panelMenu.BackColor = Color.FromArgb(127, 132, 135);
             panelMenu.Controls.Add(iconButton1);
             panelMenu.Controls.Add(btn6);
             panelMenu.Controls.Add(btn5);
@@ -110,9 +110,9 @@
             btn6.Dock = DockStyle.Top;
             btn6.FlatAppearance.BorderSize = 0;
             btn6.FlatStyle = FlatStyle.Flat;
-            btn6.ForeColor = SystemColors.Window;
+            btn6.ForeColor = SystemColors.MenuText;
             btn6.IconChar = FontAwesome.Sharp.IconChar.FileInvoiceDollar;
-            btn6.IconColor = SystemColors.Window;
+            btn6.IconColor = SystemColors.MenuText;
             btn6.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btn6.IconSize = 46;
             btn6.ImageAlign = ContentAlignment.MiddleLeft;
@@ -133,9 +133,9 @@
             btn5.Dock = DockStyle.Top;
             btn5.FlatAppearance.BorderSize = 0;
             btn5.FlatStyle = FlatStyle.Flat;
-            btn5.ForeColor = SystemColors.Window;
+            btn5.ForeColor = SystemColors.MenuText;
             btn5.IconChar = FontAwesome.Sharp.IconChar.BoxesStacked;
-            btn5.IconColor = SystemColors.Window;
+            btn5.IconColor = SystemColors.MenuText;
             btn5.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btn5.IconSize = 46;
             btn5.ImageAlign = ContentAlignment.MiddleLeft;
@@ -156,9 +156,9 @@
             btn4.Dock = DockStyle.Top;
             btn4.FlatAppearance.BorderSize = 0;
             btn4.FlatStyle = FlatStyle.Flat;
-            btn4.ForeColor = SystemColors.Window;
+            btn4.ForeColor = SystemColors.MenuText;
             btn4.IconChar = FontAwesome.Sharp.IconChar.UsersLine;
-            btn4.IconColor = SystemColors.Window;
+            btn4.IconColor = SystemColors.MenuText;
             btn4.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btn4.IconSize = 46;
             btn4.ImageAlign = ContentAlignment.MiddleLeft;
@@ -179,9 +179,9 @@
             btn3.Dock = DockStyle.Top;
             btn3.FlatAppearance.BorderSize = 0;
             btn3.FlatStyle = FlatStyle.Flat;
-            btn3.ForeColor = SystemColors.Window;
+            btn3.ForeColor = SystemColors.MenuText;
             btn3.IconChar = FontAwesome.Sharp.IconChar.CashRegister;
-            btn3.IconColor = SystemColors.Window;
+            btn3.IconColor = SystemColors.MenuText;
             btn3.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btn3.IconSize = 46;
             btn3.ImageAlign = ContentAlignment.MiddleLeft;
@@ -202,9 +202,9 @@
             btn2.Dock = DockStyle.Top;
             btn2.FlatAppearance.BorderSize = 0;
             btn2.FlatStyle = FlatStyle.Flat;
-            btn2.ForeColor = SystemColors.Window;
+            btn2.ForeColor = SystemColors.MenuText;
             btn2.IconChar = FontAwesome.Sharp.IconChar.Shop;
-            btn2.IconColor = SystemColors.Window;
+            btn2.IconColor = SystemColors.MenuText;
             btn2.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btn2.IconSize = 46;
             btn2.ImageAlign = ContentAlignment.MiddleLeft;
@@ -221,12 +221,13 @@
             // 
             // btn1
             // 
+            btn1.Cursor = Cursors.Hand;
             btn1.Dock = DockStyle.Top;
             btn1.FlatAppearance.BorderSize = 0;
             btn1.FlatStyle = FlatStyle.Flat;
-            btn1.ForeColor = SystemColors.Window;
+            btn1.ForeColor = SystemColors.MenuText;
             btn1.IconChar = FontAwesome.Sharp.IconChar.Users;
-            btn1.IconColor = SystemColors.Window;
+            btn1.IconColor = SystemColors.MenuText;
             btn1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btn1.IconSize = 46;
             btn1.ImageAlign = ContentAlignment.MiddleLeft;
@@ -263,7 +264,7 @@
             // 
             // panelTitleBar
             // 
-            panelTitleBar.BackColor = Color.FromArgb(0, 0, 64);
+            panelTitleBar.BackColor = Color.FromArgb(160, 222, 255);
             panelTitleBar.Controls.Add(btnMinimizar);
             panelTitleBar.Controls.Add(btnMaximizar);
             panelTitleBar.Controls.Add(btnExit);
@@ -337,7 +338,7 @@
             // 
             // iconCurrentChildForm
             // 
-            iconCurrentChildForm.BackColor = Color.FromArgb(0, 0, 64);
+            iconCurrentChildForm.BackColor = Color.Transparent;
             iconCurrentChildForm.ForeColor = Color.DarkViolet;
             iconCurrentChildForm.IconChar = FontAwesome.Sharp.IconChar.HomeLgAlt;
             iconCurrentChildForm.IconColor = Color.DarkViolet;
@@ -359,7 +360,7 @@
             // 
             // pnlDesktop
             // 
-            pnlDesktop.BackColor = Color.FromArgb(0, 0, 64);
+            pnlDesktop.BackColor = Color.FromArgb(239, 236, 236);
             pnlDesktop.Controls.Add(lblFecha);
             pnlDesktop.Controls.Add(lblHora);
             pnlDesktop.Controls.Add(pictureBox1);
@@ -374,7 +375,7 @@
             lblFecha.AutoSize = true;
             lblFecha.BackColor = Color.Transparent;
             lblFecha.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblFecha.ForeColor = SystemColors.ControlLightLight;
+            lblFecha.ForeColor = SystemColors.MenuText;
             lblFecha.Location = new Point(6, 3);
             lblFecha.Name = "lblFecha";
             lblFecha.Size = new Size(215, 65);
@@ -387,7 +388,7 @@
             lblHora.AutoSize = true;
             lblHora.BackColor = Color.Transparent;
             lblHora.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblHora.ForeColor = SystemColors.ControlLightLight;
+            lblHora.ForeColor = SystemColors.MenuText;
             lblHora.Location = new Point(805, 3);
             lblHora.Name = "lblHora";
             lblHora.Size = new Size(197, 65);
@@ -399,9 +400,9 @@
             pictureBox1.Anchor = AnchorStyles.None;
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(194, 16);
+            pictureBox1.Location = new Point(274, 81);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(605, 523);
+            pictureBox1.Size = new Size(393, 389);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
